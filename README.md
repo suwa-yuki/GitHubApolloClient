@@ -10,6 +10,12 @@ First, install apollo-tooling (apollo-cli).
 $ yarn install
 ```
 
+Install dependencies with Carthage.
+
+```bash
+$ carthage update --platform iOS
+```
+
 Edit source code below.
 
 ```swift
