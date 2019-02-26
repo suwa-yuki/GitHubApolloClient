@@ -1,0 +1,26 @@
+query ShowViewer {
+    viewer {
+        id
+        name
+        email
+        avatarUrl
+        company
+        projects(first: 10) {
+            nodes {
+                name
+            }
+        }
+    }
+}
+
+mutation CreateProject($ownerId: ID!, $name: String!) {
+    createProject(input: {
+                  ownerId: $ownerId
+                  name: $name
+                  }) {
+        project {
+            id
+            name
+        }
+    }
+}

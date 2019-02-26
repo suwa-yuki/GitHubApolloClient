@@ -1,0 +1,11 @@
+mutation CreateProject {
+    createProject(input: {
+                  ownerId: "MDQ6VXNlcjE1MzUzOTc="
+                  name: "Sample"
+                  }) {
+        project {
+            id
+            name
+        }
+    }
+}
