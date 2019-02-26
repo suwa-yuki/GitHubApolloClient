@@ -1,6 +1,6 @@
 # GitHubApolloClient
 
-GitHub API v4 (GraphQL) Client App
+GitHub API v4 (GraphQL) iOS Client App
 
 # How To Build
 
