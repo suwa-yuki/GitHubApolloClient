@@ -4,6 +4,8 @@ GitHub API v4 (GraphQL) Client App
 
 # How To Build
 
+First, install apollo-tooling (apollo-cli).
+
 ```bash
 $ yarn install
 ```
@@ -22,3 +24,5 @@ class ApolloClientViewController: UIViewController {
     
 }
 ```
+
+Final, run Xcode.
